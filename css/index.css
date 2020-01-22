@@ -1,1 +1,235 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Bangers Regular'), local('Bangers-Regular'), url(https://fonts.gstatic.com/s/bangers/v12/FeVQS0BTqb0h60ACH55Q3Q.ttf) format('truetype');
+}
+h2 {
+  font-family: 'Bangers', cursive;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 62.5%;
+}
+.container {
+  margin: 1.6rem;
+  display: block;
+  font-size: 2rem;
+  background-color: #4682B4;
+}
+.container header {
+  display: flex;
+  height: 4rem;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.container header nav a {
+  text-decoration: none;
+  color: black;
+}
+.ctacontainer {
+  display: flex;
+  border: 1px solid black;
+  padding: 2rem;
+  background-color: lightgrey;
+  text-align: center;
+}
+.ctacontainer section {
+  width: 100%;
+}
+.ctacontainer button {
+  border-radius: 1rem;
+}
+.section2 {
+  margin-top: 2rem;
+  display: flex;
+}
+.section2 section {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .section2 section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .section2 section div {
+    margin: 1rem 0;
+  }
+}
+.section2 .s2b1 {
+  padding-left: 1rem;
+}
+.section2 div {
+  width: 48%;
+}
+.section2 div ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.workhist {
+  margin-top: 2rem;
+  width: 100%;
+}
+.workhist section {
+  width: 100%;
+}
+table {
+  display: table;
+  width: 100%;
+  border: 1px solid black;
+}
+table td {
+  border: 1px solid black;
+  text-align: center;
+}
+footer {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+footer h2,
+footer p {
+  text-align: center;
+  margin: 2rem 0;
+}
