@@ -168,6 +168,8 @@ body {
   color: black;
 }
 .ctacontainer {
+  background-image: url('/images/arches-hallway-inside-building-2261166.jpg');
+  background-size: contain;
   display: flex;
   border: 1px solid black;
   padding: 2rem;
@@ -197,10 +199,8 @@ body {
     margin: 1rem 0;
   }
 }
-.section2 .s2b1 {
-  padding-left: 1rem;
-}
 .section2 div {
+  padding-left: 1rem;
   width: 48%;
 }
 .section2 div ul {
